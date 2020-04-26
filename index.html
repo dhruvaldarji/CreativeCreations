@@ -1,0 +1,1100 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8"/>
+
+    <!-- Site Title -->
+    <title ng-bind="title">Creative Creations</title>
+
+    <!--META TAGS-->
+    <meta name="description" content="Creative Creations by Ruchi Darji"/>
+    <meta name="author" content="Dhruval Darji"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!--FAVICON-->
+    <link href="assets/img/favicon.png" rel="icon" type="image/png">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Font icons CSS -->
+    <link href="assets/plugins/icons-mind/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/ionicons.css" rel="stylesheet" type="text/css">
+
+    <!-- Plugins CSS -->
+    <link href="assets/plugins/jpreloader/css/jpreloader.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/animate-css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/magnificPopup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/plugins/flexSlider/flexslider.css" rel="stylesheet" type="text/css">
+
+    <!-- Main CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+
+</head>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<body ng-app="app" ng-controller="AppCtrl" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"
+      data-offset="66">
+
+<!-- HERO START -->
+<header id="home" class="hero">
+    <div class="pattern-overlay"></div>
+
+    <div class="hero-body">
+        <div class="hero-text text-center animate-in" data-anim-type="fade-in-up">
+            <h1 class="small">
+                Welcome to Creative Creations!
+            </h1>
+
+            <div id="text-slider" class="morphext" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="animated flipInX item active">
+                        <h1>By Ruchi Darji</h1>
+
+                        <p>Aveda Institute Graduate - Master Cosmetologist - Youtuber</p>
+
+                    </div>
+                    <!-- //.item -->
+
+                    <div class="animated flipInX item">
+                        <h1>Services For</h1>
+
+                        <p>Birthday Parties, Bridal Showers, Proms and more!</p>
+
+                    </div>
+                    <!-- //.item -->
+                </div>
+                <!-- //.carousel-inner -->
+            </div>
+            <!-- //.carousel -->
+            <div class="page-scroll">
+                <p>Follow me on Social Media!</p>
+
+                <div class="social">
+                    <a href="http://www.youtube.com/ruchid95/" class="btn btn-sm btn-custom" target="_blank"><i
+                            class="fa fa-youtube-play"></i></a>
+                    <a href="http://www.instagram.com/thatgirlruch/" class="btn btn-sm btn-custom" target="_blank"><i
+                            class="fa fa-instagram "></i></a>
+                    <a href="http://www.pinterest.com/ruchidarji95/" class="btn btn-sm btn-custom" target="_blank"><i
+                            class="fa fa-pinterest"></i></a>
+                    <a href="http://www.twitter.com/ruchidarji/" class="btn btn-sm btn-custom" target="_blank"><i
+                            class="fa fa-twitter "></i></a>
+                </div>
+                <br>
+                <a href="#about" class=" btn btn-sm btn-custom">Who is Ruchi Darji Really?</a>
+                <br><br>
+                <a href="#services" class="btn btn-lg btn-custom">Check Out My Services Below</a>
+            </div>
+            <!-- //.page-scroll -->
+        </div>
+        <!-- //.hero-text -->
+    </div>
+    <!-- //.hero-body -->
+</header>
+<!-- //HERO END -->
+
+<!-- NAVIGATION START -->
+<nav id="navigation" class="navbar dropdown navbar-fixed-top center-menu" role="navigation">
+    <div class="container navbar-container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".custom-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand visible-xs visible-sm" href="#page-top">{{title_short}}</a>
+        </div>
+        <!-- //.navbar-header -->
+
+        <div class="navbar-collapse collapse custom-collapse">
+            <a class="navbar-brand visible-md visible-lg" href="#page-top">{{title}}</a>
+            <ul class="nav navbar-nav">
+                <li class="page-scroll"><a href="#home">HOME</a></li>
+                <li class="page-scroll"><a href="#services">SERVICES</a></li>
+                <li class="page-scroll"><a href="#about">ABOUT</a></li>
+                <li class="page-scroll"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- //.navbar-collapse -->
+    </div>
+</nav>
+<!--NAVIGATION END-->
+
+<!--SERVICE SECTION START-->
+<section id="services" class="service section bg-image-yes">
+    <div class="container-fluid section-wrapper">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center animate-in" data-anim-type="fade-in-up">
+                    <h2 class="section-title uppercase">My Services</h2>
+
+                    <p class="section-subtitle">
+                    </p>
+
+                    <span class="divider center"></span>
+                </div>
+                <!-- //.col-md-8 -->
+            </div>
+            <!-- //.row -->
+
+            <!-- SERVICES LIST START -->
+            <div class="row services-list animate-in" data-anim-type="fade-in-up">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="panel-group service" id="service">
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Threading</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service1" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Threading</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline"> Face:
+                                                <li><strong>Eyebrows: $5</strong></li>
+                                                <li><strong>Upper Lip: $2 </strong></li>
+                                                <li><strong>Chin/Neck: $3</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service1" class="panel-collapse collapse in">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Threading is a technique of removing hair by plucking the strands between
+                                            two twisted threads.
+                                            It’s more effective than individually tweezing, yet gives a better shape
+                                            than waxing.
+                                            After threading is complete, the client has the choice of being massaged
+                                            with either an aloe vera gel or a restoring lotion.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Waxing</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service2" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Waxing</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline"> Face:
+                                                <li><strong>Eyebrows: $5</strong></li>
+                                                <li><strong>Upper Lip: $2 </strong></li>
+                                                <li><strong>Chin/Neck: $3</strong></li>
+                                            </ul>
+                                            <ul class="list-inline"> Arms:
+                                                <li><strong>Half: $10</strong></li>
+                                                <li><strong>Full $20</strong></li>
+                                                <li><strong>Underarms: $10</strong></li>
+                                            </ul>
+                                            <ul class="list-inline"> Torso:
+                                                <li><strong>Stomach: $15</strong></li>
+                                                <li><strong>Back: $15</strong></li>
+                                            </ul>
+                                            <ul class="list-inline"> Legs:
+                                                <li><strong>Half: $10</strong></li>
+                                                <li><strong>Full $20</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service2" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Waxing is a hair removal technique that occurs when warm to hot wax is
+                                            applied to the skin in the direction of the hair growth.
+                                            Before the wax cools down a muslin cloth strip is applied to the wax with
+                                            pressure.
+                                            To remove the wax which contains the hair, the skin is hold tot and the
+                                            strip is pulled in the opposite direction.
+                                            After all hair has been removed, a wax remover oil is applied to the skin.
+                                            <br>Azulene Wax and All-Purpose Honey Wax are both offered.<br>
+                                            It is best to get waxing done when the hair growth is about a quarter of an
+                                            inch to half an inch in length.
+                                            Anything shorter won’t pull out properly and anything longer will cause pain
+                                            and discomfort.
+                                            After waxing is it best to avoid any exfoliation or pedicures that include
+                                            leg massages in the next 24 hours.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Bleaching</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service3" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Bleaching</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Facial Gold Bleach: $15</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service3" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Bleaching is the best way to lighten hair when someone doesn’t want to
+                                            remove any of it.
+                                            Usually it is a cream that is mixed before use.
+                                            It’s applied where the hair needs to be lightened.
+                                            It’s left on for no more than 8-10 minutes and then rinsed off.
+                                            <br>Before bleaching, it is recommended to do a patch test on the inner
+                                            elbow of any client intending on getting this service
+                                            done at least 24 hours ahead of time.
+                                            The purpose of a patch test is to insure that the client doesn’t react badly
+                                            to the product.
+                                            <br>The type of bleach I use is Cinol Gold Bleach.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Facials</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service4" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Facials</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Honey: $35</strong></li>
+                                                <li><strong>Aloe Vera: $35</strong></li>
+                                                <li><strong>Diamond: $40</strong></li>
+                                                <li><strong>Pearl: $40</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service4" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Facials are a relaxing and exfoliating treatment for the face.
+                                            Depending on what the clients main problems are (black heads, oily skin,
+                                            dryness, or acne) the appropriate type of facial would be used.
+                                            The service is about an hour long. In this hour the client lays down on the
+                                            facial bed in semi darkness and relaxes with nature music in the background.
+                                            Facial towels are used that are wet with hot water. This helps to open up
+                                            all the pores on the face and neck. Then the products are used in however
+                                            many steps are required.
+                                            They’re massaged into the face and neck and removed with new, wet towels.
+                                            The last 10 or so minutes the client is left to rest and relax.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Make Up</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service5" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Make Up</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Honey: $35</strong></li>
+                                                <li><strong>Casual: $10</strong></li>
+                                                <li><strong>Formal: $12</strong></li>
+                                                <li><strong>Homecoming: $12</strong></li>
+                                                <li><strong>Prom: $12</strong></li>
+                                                <li><strong>Halloween: $14</strong></li>
+                                                <li><strong>Bridal Party: $15 Each</strong></li>
+                                                <li><strong>Bridal: $20</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service5" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Make up is used to enhance the features and beauty of the face. Each
+                                            application is different and requires less or more products and the prices
+                                            are listed accordingly. In a make up application the following products are
+                                            applied:
+                                            <br>Face: Optional primer, foundation, concealer, optional powder, blush,
+                                            bronzer, and highlight
+                                            <br>Eyebrows: pencil, gel, or powder
+                                            <br>Eyes: Primer, base, however many eyeshadows, optional glitter, eyeliner,
+                                            and mascara
+                                            <br>Lips: Lip liner and a lip stain, gloss, or stick
+                                            <br><strong>Five dollar trial with all make up applications!</strong>
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Hair Color</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service6" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Hair Color</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Accent Foils: $5 each</strong></li>
+                                                <li><strong>Partial Highlights: $15</strong></li>
+                                                <li><strong>Half Head Highlights: $20</strong></li>
+                                                <li><strong>Full Head Highlights: $30</strong></li>
+                                                <li><strong>Balayage Highlights: $35</strong></li>
+                                                <li><strong>Full Head Applications: $32</strong></li>
+                                                <li><strong>Retouch: $15</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service6" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Hair dye is applied when a different hair color is desired, whether it’s
+                                            lightening or darkening.
+                                            Each application is different and requires more or less products and effort.
+                                            The prices are listed accordingly.
+                                            <br>The hair dye is mixed with a developer which is usually made of ammonia.
+                                            The mixture is applied to the hair strands and begins to oxidize.
+                                            The first 10-15 minutes of being on the strand is when the mixture is
+                                            opening up the cuticle and exposing the cortex layer.
+                                            This layer of the hair contains hair pigmentation.
+                                            The remaining time the dye sits in the hair is when the depositing of the
+                                            color happens.
+                                            <br>When applying color, it isn’t damaging to leave it on for too long
+                                            accidentally.
+                                            On the other hand if bleach, which is used to lighten hair, is left on for
+                                            too long it can cause
+                                            a lighter shade which isn’t desired or worse; the hair frying and falling
+                                            off.
+                                            <br>With that being said, bleach doesn’t come in a liquid form. The
+                                            enlightener is a powder that is mixed with developer as well.
+                                            The process of bleaching is typically similar to hair dye except it requires
+                                            to have a eye kept on it at all times. When mixed
+                                            and applied to the strands it opens up the cortex and eats away the hair
+                                            pigmentation, thus lightening it.
+                                            <br>Each procedure is followed by shampoo and blowout. It is recommended to
+                                            have a hair treatment done after all color services.
+                                            This is due to chemicals being harsh on the hair strands and stripping the
+                                            natural oils they need to stay strong.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Hair Treatments</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service7" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Hair Treatments</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">CHI Argan Oil Treatment: $12
+                                                <li><strong>CHI Argan Oil plus Moringa Oil Rejuvenating Masque</strong>
+                                                </li>
+                                                <li><strong>CHI Keratin Silk Infusion</strong></li>
+                                            </ul>
+                                            <ul class="list-inline">Joico K-PAK Treatment: $15
+                                                <li><strong>Joico K-PAK Shampoo</strong></li>
+                                                <li><strong>Joice K-PAK Conditioner</strong></li>
+                                                <li><strong>Joico K-PAK Intensif Hydrator</strong></li>
+                                                <li><strong>Joico K-PAK RevitaLuxe</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 1 Hour</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service7" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            When our hair isn’t healthy it shows when it starts drying out or worse,
+                                            breaking.
+                                            These two treatments help with that. The CHI Argan Oil Treatment focuses
+                                            more on hydration
+                                            while the Joico K-PAK Treatment is focused on keratin and more chemically
+                                            damaged hair.
+                                            Each treatment comes with a shampoo, conditioner, and a mask, followed by a
+                                            hair blowout.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Hair Cuts</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service8" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Hair Cuts</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Women’s Cuts: $10</strong></li>
+                                                <li><strong>Kid’s Cuts: $7</strong></li>
+                                                <li><strong>Men’s Cuts: $11</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service8" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Whether a client wants a new style or to cut off dead ends, a haircut is
+                                            always the way to go!
+                                            Sometimes adding layers or fringe can switch up your look.
+                                            What comes in a cutting service are a shampoo, cut, and blow out, and a
+                                            complimentary massage.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Hair Style</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service9" class="collapsed" data-toggle="collapse" data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Hair Style</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>Shampoo & Blow Out: $10</strong></li>
+                                                <li><strong>Straighten: $20 an hour</strong></li>
+                                                <li><strong>Curl $12 an hour</strong></li>
+                                                <li><strong>Hot Set $15 an hour</strong></li>
+                                                <li><strong>Waving $12 an hour</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 1 Hour</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service9" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Depending on which style the client wants, each price is listed.
+                                            A simple style can be achieved by a shampoo blowout with a round brush
+                                            (sleek or beach waves),
+                                            or thermal tools can be used in the hair to achieve other looks as well.
+                                            In this service, shampoo and blowout are optional.
+                                            The style is done and clients are offered a complimentary massage.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Nails</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service10" class="collapsed" data-toggle="collapse"
+                                   data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Nails</h4>-->
+                                        <div class="list-group">
+                                            <ul class="list-inline">
+                                                <li><strong>One color: $10</strong></li>
+                                            </ul>
+                                            <ul class="list-inline">Ombré (Two or more colors blended into each other):
+                                                <li><strong>Two colors: $12</strong></li>
+                                                <li><strong>Three colors: $15</strong></li>
+                                            </ul>
+                                            <ul class="list-inline">
+                                                <li><strong>French Manicure (Pink base and white tips): $15</strong>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-inline"> Nail Art
+                                                <li><strong>Simple additional (A few strokes or dots): $2</strong></li>
+                                                <li><strong>Detailed additional (A design that requires more effort):
+                                                    $3</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service10" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            When special occasions come around, sometimes you want to have polished
+                                            nails.
+                                            Creative Creations offers manicures of different kinds on natural nails.
+                                            Each manicure comes with a complimentary hand massage.
+                                        </p>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                        <div class="service-item">
+                            <div class="service-category">
+                                <span class="service-category">Henna / Mehndhi</span>
+                            </div>
+                            <!-- //.service-category -->
+
+                            <div class="service-btn">
+                                <a href="#service11" class="collapsed" data-toggle="collapse"
+                                   data-parent="#service"></a>
+                            </div>
+                            <!-- //.service-btn -->
+
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <div class="panel-title">
+                                        <!--<h4 class="service-title">Henna / Mehndhi</h4>-->
+                                        <div class="list-group">
+                                            <ul>
+                                                <li><strong>Small Design (Name, word, or small pattern): $5</strong>
+                                                </li>
+                                                <li><strong>$42 an hour</strong></li>
+                                            </ul>
+                                        </div>
+                                        <hr/>
+                                        <p>Duration: 30 Minutes</p>
+
+                                        <p>Description: </p>
+                                    </div>
+                                    <!-- //.panel-title -->
+                                </div>
+                                <!-- //.panel-heading -->
+                                <div id="service11" class="panel-collapse collapse">
+                                    <div class="panel-body text-light-grey">
+                                        <p>
+                                            Mendhi, or more commonly known as Henna, is a traditional paste that’s been
+                                            passed down many generations
+                                            for years. The paste contains henna leaves that have been ground up into
+                                            powder and mixed with water,
+                                            sometimes even oils.
+                                            The paste is applied to the desired area and left on for as long as
+                                            possible.
+                                            It starts to stain the skin as soon as applied and as it becomes dry, it
+                                            flakes off naturally.
+                                            If a darker color is desired it is best to dampen the henna with sugar,
+                                            lemon water.
+                                            Not a full pitcher of lemonade, but a small amount with a cotton ball.
+                                            After the henna has flaked off or has been removed with baby powder it is
+                                            recommended to avoid water f
+                                            or a deeper stain. Applying an oil to the design after removing is optional
+                                            for better color.
+                                            The first day the stain will be a bright orange, the second day the stain
+                                            will be a red or light brown,
+                                            and the third day is when the stain will be the darkest; deep red or brown.
+                                            Factors that play into the color of the mendhi are but aren’t limited to:
+                                        </p>
+                                        <ul>
+                                            <li>Warmth of the area applied</li>
+                                            <li>Temperature</li>
+                                            <li>Amount of time kept on</li>
+                                            <li>Contact with water</li>
+                                        </ul>
+                                    </div>
+                                    <!-- //.panel-body -->
+                                </div>
+                                <!-- //.panel-collapse -->
+                            </div>
+                            <!-- //.panel -->
+                        </div>
+                        <!-- //.service-item -->
+
+                    </div>
+                    <!-- //.panel-group -->
+                </div>
+                <!-- //.col-md-10 -->
+            </div>
+            <!-- //SERVICES LIST END -->
+        </div>
+        <!-- //.section-content -->
+    </div>
+</section>
+<!--SERVICE SECTION END-->
+
+<!-- PROFILE SECTION START -->
+<section id="about" class="section bg-image-yes">
+    <div class="container-fluid section-wrapper">
+        <div class="section-content">
+            <br><br>
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center animate-in" data-anim-type="fade-in-up">
+                    <h2 class="section-title uppercase">ABOUT ME</h2>
+
+                    <p class="section-subtitle">
+                    </p>
+
+                    <span class="divider center"></span>
+                </div>
+                <!-- //.col-md-8 -->
+            </div>
+            <!-- //.row -->
+            <div class="row">
+                <div class="col-md-8 match-height animate-in" data-anim-type="fade-in-up">
+                    <!-- PROFILE TEXT START -->
+                    <div class="profile-text padding-right-yes">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="section-title uppercase text-center">Hi, I'm Ruchi Darji!</h2>
+                                <span class="divider center"></span>
+
+                                <p>I'm a makeup artist, hairstylist, and I also do henna tattoos. I do facial threading
+                                    as well as waxing.</p>
+
+                                <p>I'm an Aveda Institute graduate and have had my own henna tattoo business for three
+                                    years.</p>
+
+                                <p>I would love to service you whether it's a party, bridal shower, homecoming or even
+                                    prom.
+                                    Contact me if you'd like to do business with me. I am looking forward to working
+                                    with you all!
+                                </p>
+
+                                <span class="divider center"></span>
+
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        Follow me on Youtube at: @ruchid95
+                                    </div>
+                                    <div class="col-md-2 item-center">
+                                        <div class="btn btn-custom btn-block">
+                                            <a class="social" href="http://www.youtube.com/ruchid95/"
+                                               target="_blank">Youtube-<i class="fa fa-youtube"></i></a>
+                                        </div>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="col-md-6 text-center">
+                                        Follow me on Instagram at: @thatgirlruch
+                                    </div>
+                                    <div class="col-md-2 item-center">
+                                        <div class="btn btn-custom btn-block">
+                                            <a class="social" href="http://www.instagram.com/thatgirlruch/"
+                                               target="_blank">Instagram-<i class="fa fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="col-md-6 text-center">
+                                        Follow me on Pinterest at: @ruchidarji95
+                                    </div>
+                                    <div class="col-md-2 item-center">
+                                        <div class="btn btn-custom btn-block">
+                                            <a class="social" href="http://www.pinterest.com/ruchidarji95/"
+                                               target="_blank">Pinterest-<i class="fa fa-pinterest"></i></a>
+                                        </div>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="col-md-6 text-center">
+                                        Follow me on Twitter at: @ruchid95
+                                    </div>
+                                    <div class="col-md-2 item-center">
+                                        <div class="btn btn-custom btn-block">
+                                            <a class="social" href="http://www.twitter.com/ruchidarji/"
+                                               target="_blank">Twitter-<i class="fa fa-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //.col-md-12 -->
+                    </div>
+                    <!-- //.row -->
+                </div>
+                <!-- //PROFILE TEXT END -->
+
+                <!-- PROFILE PICTURE START -->
+                <div class="col-md-4 hidden-xs hidden-sm match-height pp-wrapper">
+                    <div class="profile-picture style-two">
+                        <img src="assets/img/RuchiDarji_Profile.png" alt="profile picture" class="img-responsive"/>
+                    </div>
+                </div>
+                <!-- //PROFILE PICTURE END -->
+            </div>
+            <!-- //.row -->
+            <br><br>
+        </div>
+        <!-- //.section-content -->
+    </div>
+    <!-- //.container -->
+</section>
+<!-- //PROFILE SECTION END -->
+
+<!-- CONTACT SECTION START -->
+<section id="contact" class="section bg-image-yes">
+    <div class="container-fluid section-wrapper">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-title uppercase">Contact Me</h2>
+
+                    <p class="section-subtitle">
+                        Want To Schedule an Appointment?
+                    </p>
+
+                    <span class="divider center"></span>
+                </div>
+                <!-- //.col-md-12 -->
+            </div>
+            <!-- //.row -->
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <!-- CONTACT DETAILS START -->
+                    <div class="contact-details text-center">
+                        <div class="speech-bubble">
+                            <i class="icon-Speach-Bubble11"></i>
+
+                            <h4 class="uppercase text-light-grey">
+                                Say<br>Hello
+                            </h4>
+                        </div>
+                        <!-- //.speech-bubble -->
+
+                        <h2 class="uppercase"><strong>{{title}}</strong></h2>
+
+                        <h3 class="uppercase">Ruchi Darji</h3>
+
+                        <span class="divider center"></span>
+
+                        <ul class="list-inline">
+                            <li>
+                                <h3>Quick Contact</h3>
+                                <h4> Email : <a title="Send me an Email" href="mailto:ruchidarji_cc@yahoo.com">ruchidarji_cc@yahoo.com</a>
+                                </h4>
+                                <h4>Call : <a title="Call Me" href="tel://1-404-916-5588">+1-404-916-5588</a></h4>
+                            </li>
+                            <li></li>
+                            <li>
+                                <h3>Address</h3>
+                                <address>
+                                    <h4>Provided Upon</h4>
+                                    <h4>Appointment</h4>
+                                </address>
+                            </li>
+                        </ul>
+                        <span class="divider center"></span>
+
+                    </div>
+                    <!-- //CONTACT DETAILS END -->
+                </div>
+                <!-- //.col-md-12 -->
+            </div>
+            <!-- //.row -->
+        </div>
+        <!-- //.section-content -->
+    </div>
+    <!-- //.container -->
+</section>
+<!-- //CONTACT SECTION END -->
+
+<!-- FOOTER START -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-scroll">
+                    <a href="#page-top"><i class="icon-Arrow-Up"></i></a>
+                </div>
+                <!-- //.page-scroll -->
+
+                <ul class="list-inline social-icons">
+                    <li>
+                        <div class="item">
+                            <a href="http://www.youtube.com/ruchid95/" target="_blank"><i class="fa fa-youtube"></i></a>
+                        </div>
+                        <!-- //.item -->
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <a href="http://www.instagram.com/thatgirlruch/" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                        </div>
+                        <!-- //.item -->
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <a href="http://www.pinterest.com/ruchidarji95/" target="_blank"><i
+                                    class="fa fa-pinterest"></i></a>
+                        </div>
+                        <!-- //.item -->
+                    </li>
+
+                    <li>
+                        <div class="item">
+                            <a href="http://www.twitter.com/ruchidarji/" target="_blank"><i
+                                    class="fa fa-twitter"></i></a>
+                        </div>
+                        <!-- //.item -->
+                    </li>
+                </ul>
+            </div>
+            <!-- //.col-md-12 -->
+        </div>
+        <!-- //.row -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="copyright text-center">
+                    <p class="text-light-grey"> &copy; 2015
+                        <a title="Creative Creations" href="http://www.ruchidarji.com/" target="_blank">Creative
+                            Creations </a>
+                        All Rights Reserved | by
+                        <a title="Dhruval Darji" href="http://dhruvaldarji.com" target="_blank">Dhruval Darji</a>
+                    </p>
+                </div>
+                <!-- //.copyright -->
+            </div>
+            <!-- //.col-md-12 -->
+        </div>
+        <!-- //.row -->
+    </div>
+    <!-- //.container -->
+</footer>
+<!-- //FOOTER END -->
+
+<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME -->
+<!-- Plugins JS -->
+<script src="assets/plugins/jquery.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/plugins/jpreloader/js/jpreloader.min.js"></script>
+<script src="assets/plugins/detectmobilebrowser/detectmobilebrowser.js"></script>
+<script src="assets/plugins/debouncer/debouncer.js"></script>
+<script src="assets/plugins/easing/jquery.easing.min.js"></script>
+<script src="assets/plugins/sticky/jquery.sticky.js"></script>
+<script src="assets/plugins/inview/jquery.inview.min.js"></script>
+<script src="assets/plugins/matchHeight/jquery.matchHeight-min.js"></script>
+<script src="assets/plugins/magnificPopup/jquery.magnific-popup.min.js"></script>
+<script src="assets/plugins/flexSlider/jquery.flexslider-min.js"></script>
+<script src="assets/plugins/countTo/jquery.countTo.js"></script>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+
+<!-- Text Slider JS -->
+<script src="assets/js/text-slider.js"></script>
+
+<!-- Animation JS (Optional) -->
+<script src="assets/js/animation.js"></script>
+
+<!--CORE ANGULAR-->
+<script src="assets/plugins/angular/angular.min.js"></script>
+<script src="assets/js/app.js"></script>
+
+<!--GOOGLE TRACKING-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-67121411-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
